@@ -1,0 +1,20 @@
+Opis programa:
+Desktop aplikacija u kojoj se moze vrsiti upis, izmena i pretraga korisnika. Aplikacija komunicira sa MySql bazom podataka.
+
+Pokretanje programa:
+Da bi se pokrenula aplikacija nephodno je postojanje:
+
+1. JVM (Java Virtual Machine) link za preuzimanje https://www.oracle.com/technetwork/java/javase/downloads/index.html JVM se nalazi u sklopu JDK ili JRE
+
+2.MySql Server link za preuzimanje
+https://dev.mysql.com/downloads/installer/
+
+Najbolje je kreirati novu konekciju na MySql serveru sa parametrima
+user:root
+password 123
+
+Kada se napravi nova konekcija importujemo sql.
+Pokrenemo jar fajl koji se nalazi u dist folderu projekta i u login formi unesemo:
+username admin
+password admin
+
